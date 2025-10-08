@@ -1,4 +1,4 @@
-# apphub
+# Apphub
 
 A modern, responsive web app to explore, search, and manage app listings — with install/uninstall via LocalStorage, live search, sorting by downloads, and detailed analytics (Recharts). Deployed for production with proper route reload support.
 

@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://i.ibb.co.com/2YjJM9LB/2024-spotify-brand-assets-media-kit.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs, podcasts, and playlists from around the world. Discover new music daily with personalized mixes, AI-enhanced recommendations, and mood-based radios. Create collaborative playlists with friends, follow your favorite artists to get notified of new releases, and explore curated charts by genre and country. Enjoy offline downloads, cross-device syncing, seamless casting to speakers/TV, and high-quality audio options alongside a clean, accessible interface.",
+    "size": "78mb",
+    "reviews": "12.5k",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DfF4n6Qb/c-HJpdm-F0-ZS9sci9pb-WFn-ZXMvd2-Vic2l0-ZS8y-MDIy-LTA1-L3-Jt-NTMz-LW5lb24t-MDAz-Lmpw-Zw.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Share photos, Reels, and Stories with creative editing tools, filters, and templates. Browse a personalized feed, explore trending content in Discover, and grow communities with hashtags, Notes, and group chats. Sell or buy via Shops, schedule posts, manage professional dashboards, and analyze insights. Built-in safety features include comment controls, hidden words, and DM limits, while multi-device support keeps everything synced and fast.",
+    "size": "110mb",
+    "reviews": "155k",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 7800 },
+      { "name": "4 star", "count": 9900 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rRtWcJH5/unnamed.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 3,
+    "description": "Learn 40+ languages with bite-sized lessons that feel like a game. Track daily streaks, earn XP, and unlock challenges as you practice reading, writing, listening, and speaking. Get instant feedback with speech recognition, review weak words with spaced repetition, and follow structured courses created by experts. Enjoy leagues, friends leaderboards, offline lessons, and a friendly mascot that nudges you to keep learning every day.",
+    "size": "65mb",
+    "reviews": "12.4k",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNtrxqys/snapseed.jpg",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Edit photos with professional-grade tools including selective adjustments, curves, healing, HDR, and perspective. Start with high-quality presets, then fine-tune brightness, contrast, saturation, and sharpening. Work non-destructively with stacks, copy edits between photos, and export in original resolution. Batch processing, RAW support, and precise masking make it powerful for creators while remaining simple for beginners.",
+    "size": "29mb",
+    "reviews": "21k",
+    "ratingAvg": 4.5,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 11500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Psfh3GQp/photo-1663813116840-cef0040331fe.jpg",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 5,
+    "description": "Organize notes, tasks, docs, and databases in a flexible all-in-one workspace. Build wikis for teams, Kanban boards for projects, and pages with synced blocks and reusable templates. Collaborate in real time, mention teammates, and manage permissions at page or database level. Enjoy cross-platform sync, offline editing, powerful search, and rich embeds for code, media, and whiteboards to keep everything in one place.",
+    "size": "98mb",
+    "reviews": "3.2k",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HT5wn0SW/photo-1611605698323-b1e99cfd37ea.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 6,
+    "description": "Create and watch short videos with powerful editing tools, templates, effects, and a huge audio library. The For You feed personalizes content instantly, while creator tools like analytics, drafts, and scheduling help channels grow. Go live, collaborate via duets/stitches, and use robust comment controls and privacy settings. Integrated shopping, playlists, and cross-platform sharing make content discovery fast and fun.",
+    "size": "190mb",
+    "reviews": "95k",
+    "ratingAvg": 4.3,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 2300 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 6800 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LDfBzHZM/photo-1633410189542-36d96e3762b8.jpg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 7,
+    "description": "Chat, meet, and collaborate with channels, shared files, and integrated Office apps. Schedule meetings with calendar view, join with one tap, and use noise suppression plus background effects. Record sessions with transcripts, share screens, co-edit documents in real time, and manage teams with roles and policies. Works across desktop, mobile, and web with enterprise-grade security and compliance features.",
+    "size": "220mb",
+    "reviews": "8.3k",
+    "ratingAvg": 4.2,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bgGg88yG/photo-1649091245823-18be815da4f7.jpg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 8,
+    "description": "Design posts, posters, logos, and videos with drag-and-drop simplicity. Start from thousands of templates, then customize fonts, brand colors, and layouts with guides and smart alignment. Use background remover, Magic Expand, and animation to create professional visuals in minutes. Collaborate with comments, share links, and export in multiple formats (PNG, JPG, PDF, MP4) with transparent backgrounds and quality controls.",
+    "size": "85mb",
+    "reviews": "17.5k",
+    "ratingAvg": 4.7,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/tw6kS1Ht/photo-1636044594149-6e2f289c3868.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 9,
+    "description": "Discover and save creative ideas for design, cooking, home decor, and more. Browse millions of Pins, organize them into boards, and follow trends personalized to your interests. Shop from pins, upload your own visuals, and collaborate with others using shared boards. Visual search lets you find items instantly from photos.",
+    "size": "62mb",
+    "reviews": "8.9k",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0jpckCV2/Redditinc-Thumbnail-Brand-Logo.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 10,
+    "description": "Join communities, explore discussions, and share content across thousands of topics. Participate in AMAs, polls, and live threads. Upvote quality posts, comment, and follow niche subreddits. Reddit Premium unlocks ad-free browsing, coins, and exclusive avatars. Great for both casual scrolling and deep dives into interests.",
+    "size": "92mb",
+    "reviews": "14.2k",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LzsvzJxb/maxresdefault.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 11,
+    "description": "Create servers, chat with communities, and join voice channels with friends. Share media, stream games, or host study groups with screen share. Role permissions, bots, and themes make servers customizable. Nitro offers higher upload limits, HD streaming, and emojis that travel anywhere.",
+    "size": "150mb",
+    "reviews": "11.7k",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9Xw0XrK/photo-1637592156979-95f44c286423.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 12,
+    "description": "Fast and secure cloud-based messaging app with support for groups, channels, and bots. Share files up to 2GB, use themes, and sync across devices. Secret chats provide end-to-end encryption, while Telegram Premium unlocks larger uploads, double limits, and faster downloads.",
+    "size": "85mb",
+    "reviews": "20.5k",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/213WLnjh/Linked-In-logo-initials-png.webp",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 13,
+    "description": "Connect professionally, search jobs, and showcase your skills and experience. Share insights, join industry groups, and follow companies. Recruiters can post jobs and track applicants. LinkedIn Learning offers on-demand skill development videos with certificates.",
+    "size": "130mb",
+    "reviews": "16.4k",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Rp8m6tjp/25-Ue-WUr-VGmu-XUjn-G6-Yt7rj-970-80.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 14,
+    "description": "Host secure video meetings, webinars, and chat sessions. Use background blur, breakout rooms, and meeting recordings. Integrates with calendars, Google Drive, and Slack. Ideal for business meetings, remote learning, and virtual events with HD video and audio.",
+    "size": "190mb",
+    "reviews": "9.8k",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKgqbjDb/google-maps-1797882-1280.webp",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Navigate with live traffic, public transport info, and detailed satellite imagery. Save favorite places, share real-time location, and explore local businesses with reviews. Download offline maps and use indoor navigation in airports and malls.",
+    "size": "170mb",
+    "reviews": "32k",
+    "ratingAvg": 4.8,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 6700 },
+      { "name": "5 star", "count": 12500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jvqWBspK/Whats-App-svg.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 16,
+    "description": "Message and call securely with end-to-end encryption. Share photos, videos, voice messages, and documents. Create groups, communities, and use Channels for updates. WhatsApp Web and multi-device sync keep conversations seamless across all platforms.",
+    "size": "150mb",
+    "reviews": "28k",
+    "ratingAvg": 4.7,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9kM6mQgh/youtube-logo-featured.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Watch, upload, and share videos worldwide. Subscribe to creators, explore Shorts, and stream live. Create playlists, adjust playback speed, and use background play with Premium. Advanced recommendations and content filters personalize your feed.",
+    "size": "120mb",
+    "reviews": "40k",
+    "ratingAvg": 4.5,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6900 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wF7bX6fr/photo-1611605698335-8b1569810432.jpg",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 18,
+    "description": "Join conversations, share posts, and follow real-time trends globally. Spaces let you host live audio discussions, while Premium adds longer posts, verified badges, and ad-free browsing. Explore news, memes, and ideas from around the world instantly.",
+    "size": "110mb",
+    "reviews": "25k",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 8500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ymsysb2/Brand-Assets-Logos-01-Wordmark.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 19,
+    "description": "Stream movies, series, and documentaries in HD and 4K. Download shows for offline viewing and set up multiple profiles. AI recommendations adapt to your taste, and parental controls ensure safe viewing. Enjoy global hits, originals, and trending titles.",
+    "size": "210mb",
+    "reviews": "18.5k",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9KH9Hh0/Google-Drive-icon-2020-svg.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Store, share, and collaborate on files with secure cloud storage. Access documents, photos, and videos from any device. Integrated with Docs, Sheets, and Slides for real-time editing. Offline access and powerful search make it a productivity essential.",
+    "size": "95mb",
+    "reviews": "12.2k",
+    "ratingAvg": 4.7,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  }
+]

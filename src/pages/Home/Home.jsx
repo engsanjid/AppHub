@@ -2,7 +2,10 @@ import React from 'react';
 import hero from '../../assets/hero.png'
 import playstore from '../../assets/google-play-store-icon-logo-symbol-free-png-removebg-preview.png'
 import appstore from '../../assets/app-store-logo-icon-software-apple-phone-symbol-blue-design-mobile-illustration-free-vector-removebg-preview.png'
+import TrendingApps from '../Apps/TrendingApps';
+import { useLoaderData } from 'react-router';
 const Home = () => {
+  const data=useLoaderData();
     return (
  <>    
   <section className="bg-[#f7f9fb] pt-8">
@@ -75,7 +78,7 @@ const Home = () => {
     </div>
   </div>
 </section>
-
+<TrendingApps data={data}></TrendingApps>
 </>
 
     );

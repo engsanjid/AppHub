@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
     children:[
                {
                    index:true,
-                   loader:()=>fetch('TrendingApps.json'),
+                   loader:()=>fetch('/TrendingApps.json').then(r => r.json()),
                    path:"/",
                    Component:Home
                 },
@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
                {
                  
                    path:'/app',
-                   loader:()=>fetch('Apps.json'),
+                   loader:()=>fetch('/Apps.json').then(r => r.json()),
                    Component:Apps
                 },
                {
@@ -37,13 +37,13 @@ export const router = createBrowserRouter([
                {
                    
                    path:'/appDetails/:id',
-                   loader:()=>fetch('TrendingApps.json'),
+                   loader:()=>fetch('/TrendingApps.json').then(r => r.json()),
                    Component:AppDetails
                 },
                {
                    
                    path:'/appDetail/:id',
-                loader:()=>fetch('Apps.json'),
+                loader:()=>fetch('/Apps.json').then(r => r.json()),
                    Component:AppDetails
                 }
                 ,

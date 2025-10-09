@@ -52,7 +52,7 @@ const AppDetails = () => {
   return (
     <section className='p-[80px] bg-white text-black'>
       <div className='flex flex-row gap-[40px]'>
-        <img className="w/[350px] h/[350px] w-[350px] h-[350px]" src={image} alt="" />
+        <img className="w-[350px] h-[350px] w-[350px] h-[350px]" src={image} alt="" />
         <div className='flex flex-col gap-[30px] w-[350px] h-[350px]'>
           <div>
             <h1 className='font-bold w-[1050px] text-[#001931] h-[39px]'>{title}</h1>

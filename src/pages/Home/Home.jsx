@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
         <a
-          href=" "
+          href="https://play.google.com/store"
           className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm md:px-5"
         >
           <img className="h-6 w-6" src={playstore} alt="Google Play" />
@@ -35,7 +35,7 @@ const Home = () => {
         </a>
 
         <a
-          href=" "
+          href="https://www.apple.com/app-store/"
           className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm  md:px-5"
         >
           <img className="h-6 w-6" src={appstore} alt="App Store" />

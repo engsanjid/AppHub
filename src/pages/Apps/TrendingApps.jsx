@@ -22,7 +22,7 @@ const TrendingApps = ({data}) => {
         </div>
         <div className='flex flex-col text-center gap-[40px]'>
             <div>
-                <Suspense fallback={<span>loading.......</span>}>
+                <Suspense fallback={<span>l<span className="loading loading-spinner loading-xl"></span>ading.......</span>}>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
              {
                  data.map((singleApp)=><SingleApp key={singleApp.id} singleApp={singleApp}></SingleApp>)

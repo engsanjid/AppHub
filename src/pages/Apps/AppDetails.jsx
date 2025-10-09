@@ -46,7 +46,7 @@ const AppDetails = () => {
     if (installed) return;
     installApp(singleapp);
     setInstalled(true);
-    setToast('✅ Installed successfully');
+    setToast('Installed successfully');
   };
 
   return (

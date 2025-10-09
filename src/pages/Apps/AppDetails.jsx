@@ -1,116 +1,131 @@
 
-import { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
-import { Download } from 'lucide-react';
-import { Star } from 'lucide-react';
-import { ThumbsUp } from 'lucide-react';
-import RatingsChart from './Recharts';
-import { installApp, isInstalled } from '../../utils/storage';
-
-function Toast({ text, onClose }) {
-  useEffect(() => {
-    const t = setTimeout(onClose, 1800);
-    return () => clearTimeout(t);
-  }, [onClose]);
-  return (
-    <div className="fixed bottom-6 right-6 z-50 rounded-xl bg-[#001931] text-white px-4 py-3 shadow-lg">
-      {text}
-    </div>
-  );
-}
+import { useState } from "react";
+import { useLoaderData, useParams } from "react-router";
+import { Download, Star, ThumbsUp } from "lucide-react";
+import RatingsChart from "./Recharts";
+import { installApp, isInstalled } from "../../utils/storage.js";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const appId = parseInt(id);
   const data = useLoaderData() || [];
-  const singleapp = data.find(app => app.id === appId);
-
+  const singleapp = data.find((app) => app.id === appId);
 
   if (!singleapp) {
     return (
       <section className="p-[80px] bg-white text-black">
         <div className="min-h-[40vh] flex items-center justify-center">
-          <h2 className="text-2xl font-bold text-[#001931]">App not found</h2>
+          <h2 className="text-2xl font-bold text-[#001931]">
+            App not found
+          </h2>
         </div>
       </section>
     );
   }
 
-  const { image, title, companyName, description, reviews, ratingAvg, downloads, ratings, size } =
-    singleapp;
+  const {
+    image,
+    title,
+    companyName,
+    description,
+    reviews,
+    ratingAvg,
+    downloads,
+    ratings,
+    size,
+  } = singleapp;
 
-  const [installed, setInstalled] = useState(() => isInstalled(String(appId)));
-  const [toast, setToast] = useState(null);
+  const [installed, setInstalled] = useState(() =>
+    isInstalled(String(appId))
+  );
 
   const handleInstall = () => {
     if (installed) return;
     installApp(singleapp);
     setInstalled(true);
-    setToast('Installed successfully');
+    toast.success(" Installed successfully!", {
+      position: "top-right",
+      autoClose: 1800,
+      theme: "colored",
+    });
   };
 
   return (
-    <section className='p-[80px] bg-white text-black'>
-      <div className='flex flex-row gap-[40px]'>
-        <img className="w-[350px] h-[350px] w-[350px] h-[350px]" src={image} alt="" />
-        <div className='flex flex-col gap-[30px] w-[350px] h-[350px]'>
+    <section className="px-4 sm:px-10 md:px-14 lg:px-[80px] py-10 md:py-12 lg:py-[80px] bg-white text-black">
+    
+      <div className="flex flex-col md:flex-row gap-10">
+  
+        <div className="w-full md:w-1/3 flex justify-center">
+          <img
+            src={image}
+            alt={title}
+            className="w-full max-w-[350px] aspect-square object-cover rounded-xl shadow-sm"
+          />
+        </div>
+
+        <div className="w-full md:w-2/3 flex flex-col gap-6">
           <div>
-            <h1 className='font-bold w-[1050px] text-[#001931] h-[39px]'>{title}</h1>
+            <h1 className="font-bold text-[#001931] text-2xl md:text-3xl">
+              {title}
+            </h1>
             <p>
-              Developed by{' '}
-              <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>
+              Developed by{" "}
+              <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 {companyName}
               </span>
             </p>
           </div>
-          <div className='border-1 border-blue-200'></div>
-          <div className='grid grid-cols-3 gap-[24px]'>
-            <div className='flex flex-col'>
-              <span className='text-[#00D390]'><Download /></span>
+
+          <div className="border border-blue-200"></div>
+
+          <div className="grid grid-cols-3 gap-4 text-sm">
+            <div className="flex flex-col items-center">
+              <Download className="text-[#00D390]" />
               <span>Downloads</span>
-              <span>{downloads}</span>
+              <span className="font-semibold">{downloads}</span>
             </div>
-            <div className='flex flex-col'>
-              <span><Star className='text-[#FF8811]' /></span>
-              <h1>Average Ratings</h1>
-              <span>{ratingAvg}</span>
+            <div className="flex flex-col items-center">
+              <Star className="text-[#FF8811]" />
+              <span>Average Rating</span>
+              <span className="font-semibold">{ratingAvg}</span>
             </div>
-            <div className='flex flex-col'>
-              <span><ThumbsUp className='text-[#632EE3]' /></span>
+            <div className="flex flex-col items-center">
+              <ThumbsUp className="text-[#632EE3]" />
               <span>Total Reviews</span>
-              <span>{reviews}</span>
+              <span className="font-semibold">{reviews}</span>
             </div>
           </div>
-
-         
-              <button
+          <button
             onClick={handleInstall}
             disabled={installed}
-            className={`btn rounded-xl px-6 ${installed
-              ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
-              : 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white'
-              }`}
+            className={`btn rounded-xl px-6 ${
+              installed
+                ? "bg-gray-300 text-gray-600 cursor-not-allowed"
+                : "bg-[#00D390] text-white"
+            }`}
           >
-         {installed ? 'Installed' : `Install Now (${size})`}
+            {installed ? "Installed" : `Install Now (${size}MB)`}
           </button>
         </div>
       </div>
 
-      <div className='border-1 border-blue-200 my-[40px]'></div>
-
+      <div className="border border-blue-200 my-10"></div>
       <div>
-        <h1 className='font-bold w-[1050px] text-[#001931] h-[39px]'>Ratings</h1>
+        <h1 className="font-bold text-[#001931] text-xl md:text-2xl mb-4">
+          Ratings
+        </h1>
         <RatingsChart ratings={ratings} />
       </div>
 
-      <div className='border-1 border-blue-200 my-[40px]'></div>
+      <div className="border border-blue-200 my-10"></div>
 
-      <div className='gap-10'>
-        <h1 className='font-bold w-[1050px] text-[#001931] h-[39px]'>Description</h1>
-        <p>{description}</p>
+      <div className="gap-10">
+        <h1 className="font-bold text-[#001931] text-xl md:text-2xl mb-3">
+          Description
+        </h1>
+        <p className="text-gray-700 leading-relaxed">{description}</p>
       </div>
-
-      {toast && <Toast text={toast} onClose={() => setToast(null)} />}
     </section>
   );
 };

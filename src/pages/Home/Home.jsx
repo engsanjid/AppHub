@@ -8,7 +8,7 @@ const Home = () => {
   const data=useLoaderData();
     return (
  <>    
-  <section className="bg-[#f7f9fb] pt-8">
+  <section className="bg-[#f7f9fb] pt-8 px-5">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-[#001931]">
         We Build
